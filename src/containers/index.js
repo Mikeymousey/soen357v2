@@ -1,1 +1,1 @@
-export { default as WhatGPT3 } from './whatGPT3/WhatGPT3';
+export { default as WhatMS } from './whatMS/WhatMS';
