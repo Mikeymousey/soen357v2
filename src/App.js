@@ -17,6 +17,7 @@ function App() {
               <Route exact path='/notifications' element={<Notifications/>}/>
             </Routes>
           </div>
+          <Footer />
         </div>
       </div>
     </BrowserRouter>
