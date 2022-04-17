@@ -24,7 +24,7 @@ const Footer = () => (
       </div>
       <div className="medisafe__footer-links_div">
         <h4>Company</h4>
-        <p>Terms & Conditions </p>
+        <p>Terms and Conditions </p>
         <p>Privacy Policy</p>
         <p>Contact</p>
       </div>
