@@ -2,15 +2,17 @@ import React, {useState} from 'react';
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import logo from'../../assets/logo.png';
+import { Routes, Link, NavLink} from 'react-router-dom';
 
 const Menu = () => (
   <>
-  <p><a href='home'> Home</a></p>
-  <p><a href='wMedisafe'> What is Medisafe</a></p>
-  <p><a href='notifications'> Notifications</a></p>
-  <p><a href='medications'> Medications</a></p>
+  <p><Link exact to='/'>Home</Link></p>
+  <p><Link exact to='/about'>About</Link></p>
+  <p><Link exact to='/medications'>Medications</Link></p>
+  <p><Link exact to='/notifications'>Notifications</Link></p>
   </>
 )
+
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
