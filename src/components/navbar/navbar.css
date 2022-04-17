@@ -106,6 +106,7 @@
 
     .medisafe__navbar-menu {
         display: flex;
+        z-index: 3;
     }
 }
 

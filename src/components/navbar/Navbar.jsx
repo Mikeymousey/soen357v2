@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
-import logo from'../../assets/logo.png';
+import logo from'../../assets/medisafeLogo.png';
 import { Routes, Link, NavLink} from 'react-router-dom';
 
 const Menu = () => (
