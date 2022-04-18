@@ -38,8 +38,5 @@ const Footer = () => {
     )
   }
 
-<<<<<<< calendar_feature
 export default Footer;
-=======
-export default Footer;
->>>>>>> master
+
