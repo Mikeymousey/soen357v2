@@ -1,0 +1,13 @@
+.wrapper {
+    padding: 5px 200px;
+}
+
+.wrapper fieldset {
+    margin: 20px ;
+}
+
+.App {
+    text-align: center;
+    font-weight: Bold;
+    font-size: 18px;
+  }
