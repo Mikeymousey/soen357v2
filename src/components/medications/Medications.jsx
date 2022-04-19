@@ -8,6 +8,10 @@ function Medications() {
     var array = localStorage.getItem('myArray');
     // Parse it to something usable in js
     array = JSON.parse(array);
+
+    if (array === null) {
+      array = [];
+    }
   
     // here we create an array state to store the contact form data
   const [medications, updateMedications] = useState(array);
