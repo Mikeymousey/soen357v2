@@ -57,7 +57,7 @@ export default function MedicationForm({addMedication}) {
 
   return (
     <div>
-      <h1>Medications</h1>
+      <h1 class="medication-title">Medications</h1>
       <div className="form-container">
         <form onSubmit={handleSubmit}> 
           <div>
@@ -101,6 +101,7 @@ export default function MedicationForm({addMedication}) {
               placeholder="Frequency"
               value={medicationInfo.frequency}
               onChange={handleChange}
+              
             />
           </div>
           <div>

@@ -7,7 +7,7 @@ function Notifications() {
     const [date, setDate] = useState(new Date());
     return (
         <div>
-            <h1 className='medisafe__text-center'>Notifcation Calendar</h1>
+            <h1 className='medication-title'>Notification Calendar</h1>
             <div className='medisafe__calendar-container'>
                 <Calendar onChange={setDate} value={date} />
             </div>
